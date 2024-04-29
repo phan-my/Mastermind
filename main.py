@@ -18,4 +18,3 @@ while True:
             correct += 1
     
     print(correct)
-    print(secret)
