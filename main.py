@@ -5,7 +5,7 @@ def nth_digit(x, nthDigit):
     return x//(10**nthDigit) % 10
 
 digits = 3
-secret = randint(0, 10**(digits) - 1) # [0, 999]
+secret = randint(0, 10**(digits) - 1) # [000, 999]
 SecretArray = [0] * digits # same as secret but as array, 1234 -> [4, 3, 2, 1]
 guess = -1
 
